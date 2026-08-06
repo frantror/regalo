@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Desbloquea tu regalo</title>
+<style>
+body{
+    font-family:Arial;
+    text-align:center;
+    margin-top:100px;
+    background:#f6f4ef;
+}
+input{
+    font-size:25px;
+    width:120px;
+    text-align:center;
+}
+button{
+    margin-top:20px;
+    font-size:20px;
+}
+#descarga{
+    display:none;
+    margin-top:30px;
+}
+</style>
+</head>
+<body>
+
+<h1>Introduce el código</h1>
+
+<input id="codigo" maxlength="4">
+
+<br>
+
+<button onclick="comprobar()">Abrir</button>
+
+<p id="mensaje"></p>
+
+<div id="descarga">
+    <a href="Carta.pdf" download>
+        <button>Descargar carta </button>
+    </a>
+</div>
+
+<script>
+function comprobar(){
+    if(document.getElementById("codigo").value=="4821"){
+        document.getElementById("mensaje").innerHTML="¡Correcto!";
+        document.getElementById("descarga").style.display="block";
+    }else{
+        document.getElementById("mensaje").innerHTML="Código incorrecto";
+    }
+}
+</script>
+
+</body>
+</html>
