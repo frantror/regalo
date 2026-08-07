@@ -225,7 +225,7 @@ function siguienteCapitulo(idActual) {
 
         guardarProgreso();
 
-        mostrarCapitulo(progreso);
+        mostrarCapitulo(0.5);
 
     }, 800);
 
