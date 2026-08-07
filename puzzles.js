@@ -25,17 +25,20 @@ const puzzles = [
         titulo: "Prólogo",
 
         historia: `
-            Bienvenida.
+        29/06/2026
+No tenía intención de empezar una nueva investigación aquel día.
 
-            Lo que tienes delante parece un sencillo
-            diario de botánica.
+Mi objetivo era sencillo: aprovechar la mañana para fotografiar la fauna de la zona. Había leído que una pequeña familia de ciervos solía acercarse a un claro cercano al amanecer y pensé que quizá tendría suerte. Durante un buen rato todo transcurrió con normalidad, hasta que algo desvió por completo mi atención.
 
-            Sin embargo, algunas páginas permanecen
-            ocultas.
+A unos metros del sendero, entre la vegetación, encontré una planta que no fui capaz de identificar.
 
-            Solo quien consiga resolver cada pequeño
-            misterio podrá descubrir el verdadero motivo
-            por el que este diario existe.
+A primera vista no parecía especialmente llamativa. No destacaba por su tamaño ni por sus colores, y sin embargo tenía algo difícil de explicar. Cuanto más tiempo pasaba observándola, más curioso me resultaba no haber visto antes una especie con unas características tan particulares.
+
+Desde aquel momento decidí registrar cada nueva observación con el mayor detalle posible.
+
+Las páginas que siguen recogen todo lo que he podido averiguar hasta ahora. Algunas anotaciones permanecen incompletas y otras han quedado separadas del cuaderno. Si has llegado hasta aquí y consigues reunirlas todas, quizá logres comprender aquello que todavía no he sido capaz de explicar por completo.
+
+— Fran
         `
     },
 
