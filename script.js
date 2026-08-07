@@ -73,6 +73,7 @@ function mostrarIntro(puzzle) {
     const button = document.getElementById("mainButton");
 
     content.innerHTML = `
+        <h2>${puzzle.subtitulo}</h2>
         <p>${puzzle.historia}</p>
     `;
 
