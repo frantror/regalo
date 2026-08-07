@@ -106,36 +106,41 @@ function mostrarIndice() {
         <div id="indice">
     `;
 
-    for (const puzzle of puzzles) {
+    puzzles.forEach((puzzle, index) => {
 
-        if (puzzle.tipo === "intro" || puzzle.tipo === "indice")
-            continue;
+        // No mostrar el prólogo
+        if (puzzle.tipo === "intro")
+            return;
 
-        const desbloqueado = puzzle.id <= progreso;
+        const desbloqueado = index <= game.current;
 
         html += `
             <div class="indice-item">
 
-                <span>
+                <span class="${desbloqueado ? "desbloqueado" : "bloqueado"}">
+
                     ${desbloqueado ? "✓" : "🔒"}
+
                     ${puzzle.titulo}
-                    ${puzzle.subtitulo ?? ""}
+
+                    ${puzzle.subtitulo ? " - " + puzzle.subtitulo : ""}
+
                 </span>
 
             </div>
         `;
 
-    }
+    });
 
     html += "</div>";
 
     content.innerHTML = html;
 
-    button.textContent = "Abrir siguiente capítulo";
+    button.textContent = "Continuar";
 
     button.onclick = () => {
 
-        mostrarCapitulo(progreso + 0.5);
+        mostrarCapitulo(game.current);
 
     };
 
