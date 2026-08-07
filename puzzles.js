@@ -75,7 +75,7 @@ Para evitar confundir las muestras, numeré cada flor en el momento de su aparic
         ],
 
         mensajeError:
-            "Quizá las flores todavía no han revelado su secreto."
+            "Su posición inicial debe ser importante para la investigación."
     },
 
     //--------------------------------------------------
