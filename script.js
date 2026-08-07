@@ -21,9 +21,9 @@ window.onload = () => {
     MOSTRAR CAPÍTULO
 ==============================*/
 
-function mostrarCapitulo() {
+function mostrarCapitulo(id) {
 
-    const puzzle = puzzles[];
+    const puzzle = puzzles.find(p => p.id === id);
 
     if (!puzzle) {
         console.error("Capítulo no encontrado.");
@@ -33,12 +33,9 @@ function mostrarCapitulo() {
     actualizarCabecera(puzzle);
 
     switch (puzzle.tipo) {
-            
+
         case "intro":
             mostrarIntro(puzzle);
-            break;
-        case "indice":
-            mostrarIndice();
             break;
 
         case "codigo":
@@ -87,60 +84,6 @@ function mostrarIntro(puzzle) {
         guardarProgreso();
 
         mostrarCapitulo(progreso);
-
-    };
-
-}
-
-/*==============================
-    INDICE
-==============================*/
-
-function mostrarIndice() {
-
-    const content = document.getElementById("content");
-    const button = document.getElementById("mainButton");
-
-    let html = `
-        <h2>Índice</h2>
-        <div id="indice">
-    `;
-
-    puzzles.forEach((puzzle, index) => {
-
-        // No mostrar el prólogo
-        if (puzzle.tipo === "intro")
-            return;
-
-        const desbloqueado = index <= game.current;
-
-        html += `
-            <div class="indice-item">
-
-                <span class="${desbloqueado ? "desbloqueado" : "bloqueado"}">
-
-                    ${desbloqueado ? "✓" : "🔒"}
-
-                    ${puzzle.titulo}
-
-                    ${puzzle.subtitulo ? " - " + puzzle.subtitulo : ""}
-
-                </span>
-
-            </div>
-        `;
-
-    });
-
-    html += "</div>";
-
-    content.innerHTML = html;
-
-    button.textContent = "Continuar";
-
-    button.onclick = () => {
-
-        mostrarCapitulo(game.current);
 
     };
 
@@ -214,9 +157,19 @@ function comprobarRespuesta(puzzle) {
 
 function siguienteCapitulo(idActual) {
 
+    const indice = puzzles.findIndex(p => p.id === idActual);
+
+    if (indice === -1)
+        return;
+
+    const siguiente = puzzles[indice + 1];
+
+    if (!siguiente)
+        return;
+
     setTimeout(() => {
 
-        progreso++;
+        progreso = siguiente.id;
 
         guardarProgreso();
 
