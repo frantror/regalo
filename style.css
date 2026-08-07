@@ -179,11 +179,13 @@ body::before{
 
     z-index:2;
 
+    font-family:"Caveat", cursive;
+
+    font-size:2rem;
+
+    line-height:1.45;
+
     color:#3f3225;
-
-    line-height:1.8;
-
-    font-size:1.08rem;
 
 }
 
