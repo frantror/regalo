@@ -33,9 +33,12 @@ function mostrarCapitulo(id) {
     actualizarCabecera(puzzle);
 
     switch (puzzle.tipo) {
-
+            
         case "intro":
             mostrarIntro(puzzle);
+            break;
+        case "indice":
+            mostrarIndice();
             break;
 
         case "codigo":
