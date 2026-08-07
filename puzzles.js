@@ -26,9 +26,9 @@ const puzzles = [
 
         historia: `
         29/06/2026
-No tenía intención de empezar una nueva investigación aquel día.
+No tenía intención de empezar una nueva investigación.
 
-Mi objetivo era sencillo: aprovechar la mañana para fotografiar la fauna de la zona. Había leído que una pequeña familia de ciervos solía acercarse a un claro cercano al amanecer y pensé que quizá tendría suerte. Durante un buen rato todo transcurrió con normalidad, hasta que algo desvió por completo mi atención.
+Mi objetivo de hoy era aprovechar la mañana para fotografiar la fauna de la zona. Había leído que una pequeña familia de ciervos solía acercarse a un claro cercano al amanecer y pensé que quizá tendría suerte. Durante un buen rato todo iba con normalidad, hasta que algo desvió por completo mi atención.
 
 A unos metros del sendero, entre la vegetación, encontré una planta que no fui capaz de identificar.
 
