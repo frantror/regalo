@@ -76,7 +76,7 @@ function mostrarIntro(puzzle) {
         <p>${puzzle.historia}</p>
     `;
 
-    button.textContent = "Comenzar";
+    button.textContent = "Pasar página";
 
     button.onclick = () => {
 
