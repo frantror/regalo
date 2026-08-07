@@ -168,15 +168,22 @@ body::before{
 
     flex:1;
 
-    padding:60px;
+    padding:50px 60px;
 
     display:flex;
-
     flex-direction:column;
 
-    justify-content:center;
+    justify-content:flex-start;
 
-    gap:25px;
+    position:relative;
+
+    z-index:2;
+
+    color:#3f3225;
+
+    line-height:1.8;
+
+    font-size:1.08rem;
 
 }
 
