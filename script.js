@@ -21,9 +21,9 @@ window.onload = () => {
     MOSTRAR CAPÍTULO
 ==============================*/
 
-function mostrarCapitulo(indice) {
+function mostrarCapitulo() {
 
-    const puzzle = puzzles[indice];
+    const puzzle = puzzles[];
 
     if (!puzzle) {
         console.error("Capítulo no encontrado.");
