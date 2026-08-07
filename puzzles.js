@@ -56,12 +56,16 @@ Las páginas que siguen recogen todo lo que he podido averiguar hasta ahora. Alg
         subtitulo: "Las flores",
 
         historia: `
-            Cada flor guarda un pequeño fragmento.
+        11/07/2026
+            Observación nº 1
 
-            Individualmente parecen simples notas,
-            pero juntas esconden un camino.
+Tras el descubrimiento del ejemplar, consideré que las observaciones de campo no serían suficientes para comprender su comportamiento. Decidí trasladar la especie a un entorno estable y preparar un pequeño herbolario donde pudiera estudiarla con mayor detenimiento.
 
-            Observa con atención.
+El montaje resultó bastante más laborioso de lo que esperaba. Algunas piezas parecían no encajar, otras obligaban a desmontar parte de lo ya construido y, durante un momento, llegué a pensar que nunca conseguiría dejar el herbolario listo para comenzar las observaciones. Sin embargo, una vez terminado, comprendí que había merecido la pena dedicar tiempo a que todo ocupara el lugar adecuado.
+
+Fue entonces cuando ocurrió algo inesperado. A partir del mismo ejemplar comenzaron a aparecer flores muy diferentes entre sí. Compartían un mismo origen, pero cada una parecía poseer características propias que las hacían únicas.
+
+Para evitar confundir las muestras, numeré cada flor en el momento de su aparición y anoté cuidadosamente la posición que ocupaba dentro del herbolario. Sospecho que conservar esa disposición original será importante para futuras observaciones.
         `,
 
         placeholder: "Código",
