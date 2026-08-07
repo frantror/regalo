@@ -76,7 +76,7 @@ body::before{
     width:900px;
     max-width:95vw;
 
-    height:min(700px, calc(100vh - 80px));
+    min-height:650px;
 
     display:flex;
     flex-direction:column;
