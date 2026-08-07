@@ -114,7 +114,7 @@ Sospecho que la clave para comprender esta especie siempre aparece en ese moment
         ],
 
         mensajeError:
-            "Las letras aún no parecen estar en el orden correcto."
+            "Parece que debo ordenar bien los tutores."
     },
 
     //--------------------------------------------------
