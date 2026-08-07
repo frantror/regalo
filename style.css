@@ -203,9 +203,9 @@ body::before{
 
 #content p{
 
-    font-size:2rem;
+      font-size:25px;
 
-    line-height:1.45;
+    line-height:1.8;
 
     white-space:pre-line;
 
