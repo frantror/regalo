@@ -24,8 +24,9 @@ const puzzles = [
 
         titulo: "Prólogo",
 
+        subtitulo: "29/06/2026",
+
         historia: `
-        29/06/2026
 No tenía intención de empezar una nueva investigación.
 
 Mi objetivo de hoy era aprovechar la mañana para fotografiar la fauna de la zona. Había leído que una pequeña familia de ciervos solía acercarse a un claro cercano al amanecer y pensé que quizá tendría suerte. Durante un buen rato todo iba con normalidad, hasta que algo desvió por completo mi atención.
@@ -53,10 +54,9 @@ Las páginas que siguen recogen todo lo que he podido averiguar hasta ahora. Alg
 
         titulo: "Capítulo I",
 
-        subtitulo: "Las flores",
+        subtitulo: "11/07/2026",
 
         historia: `
-        11/07/2026
             Observación nº 1
 
 Tras el descubrimiento del ejemplar, consideré que las observaciones de campo no serían suficientes para comprender su comportamiento. Decidí trasladar la especie a un entorno estable y preparar un pequeño herbolario donde pudiera estudiarla con mayor detenimiento.
@@ -89,20 +89,28 @@ Para evitar confundir las muestras, numeré cada flor en el momento de su aparic
 
         titulo: "Capítulo II",
 
-        subtitulo: "Los palos",
+        subtitulo: "18/07/2026",
 
         historia: `
-            Algunas palabras necesitan orden para
-            cobrar sentido.
+            Observación nº 2
 
-            Tal vez ocurra lo mismo aquí.
+Tras varios días de estudio, el ejemplar comenzó a desarrollar nuevos brotes con una rapidez difícil de explicar. Para evitar que los tallos más jóvenes se deformaran durante el crecimiento, fabriqué varios tutores de madera y los distribuí cuidadosamente alrededor de cada flor.
+
+Fue entonces cuando apareció un comportamiento completamente inesperado.
+
+Durante el resto del día la especie apenas mostraba cambios apreciables. Sin embargo, en el instante en que la primera luz del amanecer atravesaba el herbolario, los ejemplares reaccionaban de forma distinta. Los tallos modificaban ligeramente su orientación y las flores parecían buscar siempre el mismo punto de luz, como si aquel momento marcara el inicio de un nuevo ciclo.
+
+Para registrar correctamente este fenómeno, marqué cada tutor con una referencia discreta. De forma aislada no parecía tener ningún significado, pero al reconstruir la disposición original del herbolario las marcas recuperaban el sentido con el que fueron creadas.
+
+Sospecho que la clave para comprender esta especie siempre aparece en ese momento.
         `,
 
         placeholder: "Palabra",
 
         respuestas: [
-            "JARDIN",
-            "JARDÍN"
+            "Dawn",
+            "dawn",
+            "DAWN"
         ],
 
         mensajeError:
