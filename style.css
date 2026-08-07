@@ -1,0 +1,333 @@
+/*==================================================
+    DIARIO DE BOTÁNICA
+    Estilos principales
+==================================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+
+    --color-fondo:#e6dfd1;
+    --color-libro:#f8f4eb;
+    --color-borde:#d8ccb2;
+
+    --color-titulo:#2d4739;
+    --color-texto:#463d35;
+
+    --color-boton:#6d8b74;
+    --color-boton-hover:#5a7460;
+
+    --color-input:#fffdf8;
+
+}
+
+/*==================================================
+    BODY
+==================================================*/
+
+body{
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:var(--color-fondo);
+
+    font-family:"Lora", serif;
+
+    color:var(--color-texto);
+
+    padding:40px;
+
+}
+
+/*==================================================
+    FONDO
+==================================================*/
+
+#background{
+
+    position:fixed;
+
+    inset:0;
+
+    background:
+        radial-gradient(circle at top,#efe9dd 0%,transparent 55%);
+
+    z-index:-1;
+
+}
+
+/*==================================================
+    LIBRO
+==================================================*/
+
+#book{
+
+    width:900px;
+    max-width:95vw;
+
+    min-height:650px;
+
+    background:var(--color-libro);
+
+    border:1px solid var(--color-borde);
+
+    border-radius:12px;
+
+    box-shadow:
+        0px 20px 40px rgba(0,0,0,.15);
+
+    display:flex;
+
+    flex-direction:column;
+
+    overflow:hidden;
+
+}
+
+/*==================================================
+    CABECERA
+==================================================*/
+
+#book-header{
+
+    padding:40px;
+
+    border-bottom:1px solid var(--color-borde);
+
+    text-align:center;
+
+}
+
+#book-header h1{
+
+    font-family:"Cormorant Garamond", serif;
+
+    font-size:52px;
+
+    color:var(--color-titulo);
+
+    margin-bottom:10px;
+
+}
+
+#chapter{
+
+    font-size:18px;
+
+    color:#777;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+/*==================================================
+    CONTENIDO
+==================================================*/
+
+#content{
+
+    flex:1;
+
+    padding:60px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    gap:25px;
+
+}
+
+#content h2{
+
+    font-family:"Cormorant Garamond", serif;
+
+    font-size:40px;
+
+    color:var(--color-titulo);
+
+}
+
+#content p{
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    white-space:pre-line;
+
+}
+
+/*==================================================
+    INPUT
+==================================================*/
+
+input{
+
+    width:100%;
+
+    max-width:350px;
+
+    padding:14px;
+
+    font-size:20px;
+
+    font-family:"Lora", serif;
+
+    background:var(--color-input);
+
+    border:1px solid var(--color-borde);
+
+    border-radius:8px;
+
+    outline:none;
+
+    transition:.2s;
+
+}
+
+input:focus{
+
+    border-color:var(--color-boton);
+
+    box-shadow:0 0 0 4px rgba(109,139,116,.15);
+
+}
+
+/*==================================================
+    MENSAJE
+==================================================*/
+
+#mensaje{
+
+    min-height:28px;
+
+    font-size:18px;
+
+    color:#8b3a3a;
+
+}
+
+/*==================================================
+    FOOTER
+==================================================*/
+
+#book-footer{
+
+    padding:30px;
+
+    border-top:1px solid var(--color-borde);
+
+    display:flex;
+
+    justify-content:flex-end;
+
+}
+
+/*==================================================
+    BOTÓN
+==================================================*/
+
+button{
+
+    background:var(--color-boton);
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    padding:14px 28px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    font-family:"Lora", serif;
+
+    transition:.2s;
+
+}
+
+button:hover{
+
+    background:var(--color-boton-hover);
+
+    transform:translateY(-2px);
+
+}
+
+button:active{
+
+    transform:translateY(0px);
+
+}
+
+/*==================================================
+    RESPONSIVE
+==================================================*/
+
+@media (max-width:700px){
+
+    body{
+
+        padding:15px;
+
+    }
+
+    #book{
+
+        min-height:90vh;
+
+    }
+
+    #book-header{
+
+        padding:25px;
+
+    }
+
+    #book-header h1{
+
+        font-size:40px;
+
+    }
+
+    #content{
+
+        padding:30px;
+
+    }
+
+    #content h2{
+
+        font-size:30px;
+
+    }
+
+    #content p{
+
+        font-size:18px;
+
+    }
+
+    input{
+
+        max-width:100%;
+
+    }
+
+}
