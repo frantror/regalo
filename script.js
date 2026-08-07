@@ -209,23 +209,13 @@ function comprobarRespuesta(puzzle) {
 
 function siguienteCapitulo(idActual) {
 
-    const indice = puzzles.findIndex(p => p.id === idActual);
-
-    if (indice === -1)
-        return;
-
-    const siguiente = puzzles[indice + 1];
-
-    if (!siguiente)
-        return;
-
     setTimeout(() => {
 
-        progreso = siguiente.id;
+        progreso++;
 
         guardarProgreso();
 
-        mostrarCapitulo(0.5);
+        mostrarCapitulo(progreso);
 
     }, 800);
 
