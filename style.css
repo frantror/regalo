@@ -72,7 +72,7 @@ body::before{
 ==================================================*/
 
 #book{
-
+    background:red;
     width:900px;
     max-width:95vw;
 
