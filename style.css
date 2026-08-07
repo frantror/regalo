@@ -90,7 +90,7 @@ body::before{
             rgba(255,255,255,.12),
             rgba(0,0,0,.04)
         ),
-        url("img/papel.png");
+        url("images/papel.png");
 
     background-size:cover;
     background-position:center;
