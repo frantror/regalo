@@ -12,13 +12,6 @@ más capítulos.
 */
 
 const puzzles = [
-{
-    id: 0.5,
-
-    tipo: "indice",
-
-    titulo: "Índice"
-},
     //--------------------------------------------------
     // PRÓLOGO
     //--------------------------------------------------
@@ -44,6 +37,13 @@ const puzzles = [
             por el que este diario existe.
         `
     },
+    {
+    id: "indice",
+
+    tipo: "indice",
+
+    titulo: "Índice"
+},
 
     //--------------------------------------------------
     // PUZZLE 1
