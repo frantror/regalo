@@ -39,6 +39,8 @@ body{
     justify-content:center;
     align-items:center;
 
+     padding:40px 20px;
+
     font-family:Georgia, serif;
 
     background-image:url("images/mesa.png");
@@ -100,32 +102,6 @@ body::before{
         inset 0 0 2px rgba(255,255,255,.6);
 
     transform:rotate(-0.5deg);
-
-}
-
-#book::before{
-
-    content:"";
-
-    position:absolute;
-
-    top:0;
-    bottom:0;
-    left:50%;
-
-    width:14px;
-
-    transform:translateX(-50%);
-
-    background:
-        linear-gradient(
-            90deg,
-            rgba(0,0,0,.08),
-            rgba(0,0,0,.02),
-            rgba(255,255,255,.25)
-        );
-
-    pointer-events:none;
 
 }
 
