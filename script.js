@@ -93,6 +93,55 @@ function mostrarIntro(puzzle) {
 }
 
 /*==============================
+    INDICE
+==============================*/
+
+function mostrarIndice() {
+
+    const content = document.getElementById("content");
+    const button = document.getElementById("mainButton");
+
+    let html = `
+        <h2>Índice</h2>
+        <div id="indice">
+    `;
+
+    for (const puzzle of puzzles) {
+
+        if (puzzle.tipo === "intro" || puzzle.tipo === "indice")
+            continue;
+
+        const desbloqueado = puzzle.id <= progreso;
+
+        html += `
+            <div class="indice-item">
+
+                <span>
+                    ${desbloqueado ? "✓" : "🔒"}
+                    ${puzzle.titulo}
+                    ${puzzle.subtitulo ?? ""}
+                </span>
+
+            </div>
+        `;
+
+    }
+
+    html += "</div>";
+
+    content.innerHTML = html;
+
+    button.textContent = "Abrir siguiente capítulo";
+
+    button.onclick = () => {
+
+        mostrarCapitulo(progreso + 0.5);
+
+    };
+
+}
+
+/*==============================
     PUZZLES
 ==============================*/
 
