@@ -178,6 +178,8 @@ body::before{
 
     gap:25px;
 
+    overflow-y:auto;
+
 }
 
 #content h2{
