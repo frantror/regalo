@@ -92,7 +92,7 @@ body::before{
         ),
         url("images/pepel.png");
 
-    background-size:100%;
+    background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
 
@@ -119,7 +119,7 @@ body::before{
     background:
         radial-gradient(
             circle at center,
-            transparent 70%,
+            transparent 80%,
             rgba(70,45,20,.08) 100%
         );
 
