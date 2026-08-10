@@ -41,8 +41,10 @@ function mostrarCapitulo(id) {
             break;
 
         case "codigo":
-        case "texto":
             mostrarPuzzle(puzzle);
+            break;
+        case "texto":
+            mostrarTexto(puzzle);
             break;
 
         case "crucigrama":
@@ -164,6 +166,25 @@ function comprobarRespuesta(puzzle) {
 
 }
 
+function mostrarTexto(puzzle) {
+
+    const content = document.getElementById("content");
+    const button = document.getElementById("mainButton");
+
+    content.innerHTML = `
+        <h2>${puzzle.subtitulo}</h2>
+
+        <div class="texto-historia">
+            ${puzzle.historia}
+        </div>
+    `;
+
+    button.textContent = "Continuar";
+
+    button.onclick = () => {
+        siguienteCapitulo(puzzle.id);
+    };
+}
 
 /*==================================================
     CRUCIGRAMA
