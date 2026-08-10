@@ -24,8 +24,6 @@ const puzzles = [
 
         titulo: "Prólogo",
 
-        subtitulo: "29/06/2026",
-
         historia: `
 No tenía intención de empezar una nueva investigación.
 
