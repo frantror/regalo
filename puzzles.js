@@ -139,8 +139,7 @@ Hay descubrimientos que solo adquieren sentido cuando se observan en conjunto.
        
     `
 },
-
-    //--------------------------------------------------
+//--------------------------------------------------
     // PUZZLE 4
     //--------------------------------------------------
 
@@ -151,22 +150,24 @@ Hay descubrimientos que solo adquieren sentido cuando se observan en conjunto.
 
         titulo: "Capítulo IV",
 
-        subtitulo: "???",
+        subtitulo: "12/08/2026",
 
-        historia: `
-            Aquí añadiremos el siguiente acertijo.
-        `,
+        historia: 
+            `Han pasado algunos días desde mi última anotación.
+            Durante este tiempo he seguido preparando el último momento de la investigación. He revisado las muestras, ordenado las observaciones y dejado preparado todo lo necesario para poder observar la especie cuando llegue el eclipse.
 
-        placeholder: "Respuesta",
+Después de todo lo que he aprendido sobre ella, hay algo que todavía no puedo predecir.
 
-        respuestas: [
-            "PENDIENTE"
-        ],
+Hasta ahora, cada nueva observación parecía aportar una respuesta. Cada flor, cada cambio y cada pequeño detalle ayudaba a comprender un poco mejor aquello que había encontrado aquella primera mañana.
 
-        mensajeError:
-            "No parece ser la respuesta correcta."
+Pero esta vez no puedo hacer más que esperar.
+
+Sea cual sea el resultado, mañana seguiré aquí para continuar con la investigación.
+`
+        
+
+    
     },
-
     //--------------------------------------------------
     // FINAL
     //--------------------------------------------------
@@ -179,14 +180,11 @@ Hay descubrimientos que solo adquieren sentido cuando se observan en conjunto.
         titulo: "Epílogo",
 
         historia: `
-            Has llegado hasta el final.
+            ¡Feliz cumple!
 
-            Gracias por recorrer este pequeño camino.
+            Espero que te haya gustado el regalo y que te haya sorprendido al menos un poco.
 
-            Todo lo que has descubierto te ha traído
-            hasta aquí.
-
-            Ahora solo queda abrir la última página.
+            Por último te he dejado una carta.
         `,
 
         boton: "Abrir carta",
