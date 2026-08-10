@@ -146,7 +146,7 @@ Hay descubrimientos que solo adquieren sentido cuando se observan en conjunto.
     {
         id: 4,
 
-        tipo: "texto",
+        tipo: "intro",
 
         titulo: "Capítulo IV",
 
