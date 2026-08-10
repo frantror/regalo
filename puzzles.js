@@ -131,57 +131,11 @@ Sospecho que la clave para comprender esta especie siempre aparece en ese moment
     subtitulo: "Las fichas",
 
     historia: `
-        <p>
+        
             Las flores cuentan muchas cosas.
             Quizá alguno de esos datos sea más
             importante de lo que parece.
-        </p>
-
-        <div id="crucigrama">
-
-            <div id="grid-crucigrama"></div>
-
-            <div id="pistas-crucigrama">
-
-                <div class="pista">
-                    <span>1.</span>
-                    Cualidad de aquello que destaca por su armonía y atractivo.
-                </div>
-
-                <div class="pista">
-                    <span>2.</span>
-                    Forma de expresarse sin ocultar ni falsear lo que se piensa o siente.
-                </div>
-
-                <div class="pista">
-                    <span>3.</span>
-                    Nombre provisional dado a la nueva especie descubierta.
-                </div>
-
-                <div class="pista">
-                    <span>4.</span>
-                    Animal cuyo rastro condujo al descubrimiento de la nueva especie.
-                </div>
-
-                <div class="pista">
-                    <span>5.</span>
-                    Aquello que dejan los buenos momentos compartidos.
-                </div>
-
-                <div class="pista">
-                    <span>6.</span>
-                    Capacidad de seguir adelante y vencer las dificultades.
-                </div>
-
-            </div>
-
-            <button id="comprobarCrucigrama">
-                Comprobar
-            </button>
-
-            <p id="resultadoCrucigrama"></p>
-
-        </div>
+       
     `
 },
 
