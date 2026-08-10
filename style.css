@@ -101,26 +101,7 @@ body::before{
     transform:rotate(-0.5deg);
 
 }
-#book::after{
 
-    content:"";
-
-    position:absolute;
-
-    inset:0;
-
-    border-radius:14px;
-
-    background:
-        radial-gradient(
-            circle at center,
-            transparent 80%,
-            rgba(70,45,20,.08) 100%
-        );
-
-    pointer-events:none;
-
-}
 
 /*==================================================
     CABECERA
