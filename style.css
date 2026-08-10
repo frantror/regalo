@@ -350,3 +350,251 @@ button:active{
     }
 
 }
+
+/* ==========================================
+   CRUCIGRAMA
+   ========================================== */
+
+#crucigrama{
+
+    width:100%;
+
+    max-width:850px;
+
+    margin:0 auto;
+
+    font-family:"Caveat", cursive;
+
+    color:#403225;
+
+}
+
+
+#crucigrama h2{
+
+    text-align:center;
+
+    font-size:2.5rem;
+
+    margin-top:20px;
+
+    margin-bottom:10px;
+
+}
+
+
+.intro-crucigrama{
+
+    text-align:center;
+
+    font-size:1.4rem;
+
+    margin-bottom:30px;
+
+}
+
+
+/* ------------------------------------------
+   CUADRÍCULA
+   ------------------------------------------ */
+
+#grid-crucigrama{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(14, 48px);
+
+    grid-template-rows:
+        repeat(6, 48px);
+
+    justify-content:center;
+
+    margin:30px auto 40px;
+
+}
+
+
+/* Casilla */
+
+.casilla-crucigrama{
+
+    width:48px;
+
+    height:48px;
+
+    box-sizing:border-box;
+
+}
+
+
+/* Casilla vacía */
+
+.casilla-vacia{
+
+    background:transparent;
+
+}
+
+
+/* Casilla con letra */
+
+.casilla-activa{
+
+    background:rgba(255,255,255,.55);
+
+    border:1px solid rgba(60,45,30,.45);
+
+}
+
+
+/* Columna que forma ANDREA */
+
+.casilla-oculta{
+
+    background:rgba(218,105,168,.85);
+
+}
+
+
+/* Input */
+
+.casilla-crucigrama input{
+
+    width:100%;
+
+    height:100%;
+
+    padding:0;
+
+    border:none;
+
+    outline:none;
+
+    background:transparent;
+
+    text-align:center;
+
+    font-family:"Times New Roman", serif;
+
+    font-size:1.5rem;
+
+    font-weight:bold;
+
+    color:#30261d;
+
+}
+
+
+/* Input cuando hay error */
+
+.casilla-crucigrama input.error{
+
+    background:rgba(170,60,50,.25);
+
+}
+
+
+/* ------------------------------------------
+   PISTAS
+   ------------------------------------------ */
+
+#pistas-crucigrama{
+
+    margin:20px auto;
+
+    max-width:700px;
+
+    font-size:1.35rem;
+
+}
+
+
+.pista{
+
+    margin:12px 0;
+
+}
+
+
+.pista span{
+
+    font-weight:bold;
+
+    margin-right:8px;
+
+}
+
+
+/* ------------------------------------------
+   BOTÓN
+   ------------------------------------------ */
+
+#comprobarCrucigrama{
+
+    display:block;
+
+    margin:30px auto 15px;
+
+    padding:10px 28px;
+
+    font-family:"Caveat", cursive;
+
+    font-size:1.4rem;
+
+    color:#403225;
+
+    background:rgba(255,255,255,.25);
+
+    border:1px solid #6b5138;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+
+#comprobarCrucigrama:hover{
+
+    background:rgba(255,255,255,.5);
+
+}
+
+
+/* ------------------------------------------
+   RESULTADO
+   ------------------------------------------ */
+
+#resultadoCrucigrama{
+
+    text-align:center;
+
+    font-size:1.5rem;
+
+    min-height:50px;
+
+}
+
+
+.resultado-correcto{
+
+    color:#4d633d;
+
+}
+
+
+.resultado-correcto strong{
+
+    font-size:2.2rem;
+
+    letter-spacing:8px;
+
+}
+
+
+.resultado-error{
+
+    color:#8a4438;
+
+}
