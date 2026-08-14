@@ -83,7 +83,7 @@ Para evitar confundir las muestras, he numerado cada flor en el momento de su ap
     {
         id: 2,
 
-        tipo: "texto",
+        tipo: "codigo",
 
         titulo: "Capítulo II",
 
