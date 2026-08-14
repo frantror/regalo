@@ -184,12 +184,12 @@ Sea cual sea el resultado, mañana seguiré aquí para continuar con la investig
 
             Espero que te haya gustado el regalo y que te haya sorprendido al menos un poco.
 
-            Por último te he dejado una carta.
+            Por último te he dejado una última sorpresa.
         `,
 
-        boton: "Abrir carta",
+        boton: "Abrir",
 
-        archivo: "carta.pdf"
+        archivo: "https://youtu.be/KH4yo7nUo1Y"
     }
 
 ];
